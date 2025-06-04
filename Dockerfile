@@ -12,5 +12,4 @@ COPY script.js /usr/share/nginx/html/
 EXPOSE 80
 
 # Perintah default untuk menjalankan Nginx
-CMD ["nginx", "-g", "daemon off;"
-
+CMD ["nginx", "-g", "daemon off;"]
