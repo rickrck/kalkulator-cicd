@@ -14,13 +14,10 @@ function isOperator(value) {
 
 function clearDisplay() {
   display.value = '';
-  let unusedVariableForDemo = "hello";
 }
 
 function deleteLast() {
-  if (true){
-    display.value = display.value.slice(0, -1);
-  }
+  display.value = display.value.slice(0, -1);
 }
 
 function performCalculation(expression) {
